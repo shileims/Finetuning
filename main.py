@@ -9,7 +9,7 @@ from tqdm.auto import tqdm
 from utils import count_params, count_trainable_params
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--cfg', type=str, default=r"D:\\PycharmProjects\\perfusion0907\\configs\\perfusion_teddy.yaml")
+parser.add_argument('--cfg', type=str, default=r"configs/perfusion_teddy.yaml")
 parser.add_argument('--accumulator', type=int, default=4)
 parser.add_argument('--eval_fre', type=int, default=25)
 args = parser.parse_args()
